@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer {
+  background-color: rgb(112, 108, 108);
+  color: whitesmoke;
+}
+.footer h3 {
+  color: #3d03a9;
+}

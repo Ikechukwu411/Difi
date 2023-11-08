@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.fifth__bg {
+  background-color: #f0f0f05c;
+}
+.Basic__bg {
+  background-color: #271a33;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Basic__bg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(65, 65, 108, 0.9);
+}
+.button {
+  background-color: #352a7d;
+  color: white;
+}
+..button:hover {
+  color: #352a7d;
+}
+.col {
+  width: 80%;
+  margin: auto 2.5rem;
+}

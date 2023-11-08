@@ -1,0 +1,29 @@
+.AboutSection__bg {
+  background-image: url(../Images/heroimage1.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+.AboutSection__bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(19, 19, 19, 0.593);
+  width: 100%;
+  height: inherit;
+  filter: blur(20px);
+  z-index: 1;
+}
+.hero-body h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 32px;
+}
